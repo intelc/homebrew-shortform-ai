@@ -1,18 +1,27 @@
-# Intelc Shortform-ai
+# Homebrew Tap For shortform-ai
 
-## How do I install these formulae?
+Install the local-first CLI for short-form video and creator analysis:
 
-`brew install intelc/shortform-ai/<formula>`
+```bash
+brew tap intelc/shortform-ai
+brew install shortform-ai
+```
 
-Or `brew tap intelc/shortform-ai` and then `brew install <formula>`.
+Or install directly:
 
-Or, in a `brew bundle` `Brewfile`:
+```bash
+brew install intelc/shortform-ai/shortform-ai
+```
+
+In a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "intelc/shortform-ai"
-brew "<formula>"
+brew "shortform-ai"
 ```
 
 ## Documentation
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Project: https://github.com/intelc/shortform-ai
+
+Homebrew: `brew help`, `man brew`, or https://docs.brew.sh.
